@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K.U - Data Layanan Mahasiswa</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <span class="logo">Katawa University</span>
+            <ul>
+                <li><a href="index.html">Form Input</a></li>
+                <li><a href="data.html" class="active">Tabel Data</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container-wide">
+        <div class="card">
+            <div class="card-header">
+                <h2>Daftar Data Layanan</h2>
+                <button id="btnClear" class="btn-danger">Hapus Semua Data</button>
+            </div>
+            
+            <div class="table-responsive">
+                <table id="tabelData">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Nama</th>
+                            <th>NIM</th>
+                            <th>Jenis Layanan</th>
+                            <th>Keterangan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Data dari JS akan dirender di sini -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
