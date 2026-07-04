@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const formLayanan = document.getElementById("formLayanan");
     const tabelData = document.getElementById("tabelData");
-    const btnClear = document.getElementById("btnClear");
+    const btnClear = document.getElementById("btnClear"); 
 
     // --- LOGIKA HALAMAN FORM ---
     if (formLayanan) {
